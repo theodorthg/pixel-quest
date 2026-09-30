@@ -3,7 +3,7 @@
     "description": "Pixel-Quest: Jump & Run in 3 Welten",
     "dependencies": {
         "device": "*",
-        "pixelquest": "github:theodorthg/pxt-pixelquest#v0.1.0"
+        "pixelquest": "github:theodorthg/pxt-pixelquest#v0.1.1"
     },
     "files": [
         "main.blocks",
