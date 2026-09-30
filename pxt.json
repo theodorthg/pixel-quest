@@ -1,0 +1,14 @@
+{
+    "name": "jump-and-run",
+    "description": "Pixel-Quest: Jump & Run in 3 Welten",
+    "dependencies": {
+        "device": "*",
+        "pixelquest": "github:theodorthg/pxt-pixelquest#v0.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj"
+}
