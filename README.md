@@ -1,8 +1,14 @@
 # Pixel-Quest – das Spiel
 
 Klassisches Jump & Run in 3 Welten (Gras, SciFi, Dungeon) mit Endboss, gebaut mit MakeCode Arcade.
-Die Spiellogik steckt in der Erweiterung [pxt-pixelquest](https://github.com/theodorthg/pxt-pixelquest);
-dieses Projekt besteht nur aus Blöcken, mit denen man das Spiel einstellt.
+Die Spiellogik steckt in der Erweiterung [pxt-pixelquest](https://github.com/theodorthg/pxt-pixelquest).
+Grafiken und Welten liegen **im Projekt** und lassen sich direkt in MakeCode bearbeiten:
+
+- **Assets-Tab:** alle Bilder, Animationen und Kacheln (Held, Gegner, Boss, Items, Hintergründe).
+  Änderungen übernimmt das Spiel automatisch – die Namen müssen bleiben, wie sie sind.
+- **Welten:** die Tilemaps `welt1` bis `welt3`, erreichbar über die Blöcke „Welt … Karte …“.
+  Spielobjekte setzt man mit den Kacheln `pqStart`, `pqCoin`, `pqWalker`, `pqBoss` … (siehe README der Erweiterung).
+- Weitere Welten (bis 9) einfach mit einem zusätzlichen „Welt 4 Karte …“-Block anlegen.
 
 ## In MakeCode öffnen
 

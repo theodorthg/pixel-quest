@@ -1,4 +1,7 @@
 pixelquest.setTitle("PIXEL-QUEST")
+pixelquest.setWorld(1, tilemap`welt1`, pixelquest.Style.Grass)
+pixelquest.setWorld(2, tilemap`welt2`, pixelquest.Style.SciFi)
+pixelquest.setWorld(3, tilemap`welt3`, pixelquest.Style.Dungeon)
 pixelquest.setLives(3)
 pixelquest.setMaxLives(5)
 pixelquest.setRunSpeed(80)
